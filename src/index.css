@@ -58,3 +58,18 @@ h2{
     bottom: 25px;
     
 }
+
+@media (max-width: 600px) {
+
+    .card {
+        margin: 0 30px;
+    }
+
+    .body-text p{
+        font-size: 15px;
+        
+    }
+
+
+   
+}
