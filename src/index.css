@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height:100vh ;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+
+    height: 250px;
+    width: 600px;
+
+    border: solid 1px black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(155, 155, 155);
+
+    position: relative;
+    background-color: white;
+}
+.body-card{
+    margin-top: 5%;
+}
+
+.simbol{
+    font-size: 50px;
+}
+
+.body-text p{
+    font-size: 17px;
+    text-align: center;
+    padding: 0 5%;
+}
+
+h2{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 7%;
+}
+.options{
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.options button{
+    padding: 15px 15px;
+    margin-right:7% ;
+    border-radius: 50%;
+
+    position: absolute;
+    bottom: 25px;
+    
+}
