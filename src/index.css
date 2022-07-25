@@ -60,6 +60,11 @@ h2{
     
 }
 
+.options button:hover{
+    padding: 17px 17px;
+    box-shadow: 5px 5px 5px rgb(231, 223, 223);
+}
+
 @media (max-width: 600px) {
 
     .card {
