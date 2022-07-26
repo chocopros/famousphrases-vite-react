@@ -44,7 +44,7 @@ const Card = () => {
       <div className="card">
         <div className="body-card">
           <div className="body-text" >
-            <p style={objecStyle} ><span className='simbol' style={objecStyle} >"</span>{randomUser.quote}</p>
+            <p style={objecStyle} ><span className='simbol' style={objecStyle} ><i class='bx bxs-quote-alt-left'></i></span>{randomUser.quote}</p>
             <h2 style={objecStyle} >{randomUser.author}</h2>
           </div>
         </div>
